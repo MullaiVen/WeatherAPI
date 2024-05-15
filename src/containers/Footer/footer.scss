@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .by {
+    font-size: 20px;
+    margin: 0;
+    margin-right: 10px; /* Adjust spacing as needed */
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .qrs {
+    font-size: 20px;
+    margin: 0;
+    margin-right: 10px; /* Adjust spacing as needed */
+  }
+  
+  .social-icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    margin-left: 10px; /* Adjust spacing as needed */
+  }
+  
+  .port{
+    color: black;
+  }

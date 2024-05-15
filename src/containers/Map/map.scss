@@ -1,0 +1,84 @@
+.map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: white;
+  background-image: url('/assets/3.Rainy.png');
+  background-size: cover; /* This makes the background image cover the entire div */
+  background-position: center; /* This centers the background image */
+  border-radius: 20px;
+  height: 500px;
+  width: 800px;
+  margin: auto;
+}
+
+
+.map .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; 
+  padding-top: 80px;
+}
+
+.map .header .temperatur{
+  color: #ffffff;
+}
+
+.map .header .time h2,
+.map .header .temperature,
+.map .details1 p,
+.map .details2 p {
+  margin: 0;
+  padding: 0;
+}
+
+.map .header .time h2 {
+  justify-content: center;
+  padding-right: 20px;
+  font-size: 2em;
+}
+
+.map .header .temperature {
+  padding-left: 20px;
+  font-size: 5em;
+}
+
+.map .details1,
+.map .details2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px; /* Adjust this to change the gap above the details */
+  margin-bottom: 20px; /* Adjust this to change the gap below the details */
+}
+
+.map .details1 p,
+.map .details2 p {
+  width: 25%; /* This ensures that each detail takes up an equal amount of space */
+  text-align: center;
+}
+
+.map .send {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px; /* Adjust this to change the gap above the button */
+}
+
+.map .send button {
+  width: 80px;
+  height: 40px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.send button:hover{
+  background-color: rgb(0, 247, 16);
+  color: white;
+}
